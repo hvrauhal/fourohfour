@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <title>Wat</title>
+  <script src="http://code.jquery.com/jquery-2.0.2.js"></script>
+</head>
+<body>
+Invoke in console:
+<pre>
+$.get('http://localhost:3000').always(function(r) {console.log('done',r)})
+</pre>
+Then shutdown server, invoke it again and have a look at the status, which
+will be 404.
+</body>
+</html>
+
+
